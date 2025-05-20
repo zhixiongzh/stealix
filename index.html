@@ -59,7 +59,7 @@
               <span class="author-block">
                 <a target="_blank">Zhixiong Zhuang</a><sup>1,2</sup>,</span>
                 <span class="author-block">
-                  <a href="https://hui-po-wang.github.io/" target="_blank">Hui-Po Wang</a><sup>3</sup>
+                  <a href="https://hui-po-wang.github.io/" target="_blank">Hui-Po Wang</a><sup>3</sup>,
                 </span>
                 <span class="author-block">
                   <a href="https://ririnicolae.github.io/" target="_blank">Maria-Irina Nicolae</a><sup>2</sup>,</span>
@@ -120,15 +120,17 @@
 
 <section class="hero is-small">
   <div class="hero-body">
-    <div class="container" style="text-align: center;">
-      <!-- Your image here -->
-      <img src="static/images/qualitative_instruct.png" alt="MY ALT TEXT" style="width:65%; height:auto;"/>
-      <h2 class="subtitle has-text-centered">
+    <div class="container">
+      <div style="text-align: center;">
+        <img src="static/images/qualitative_instruct.png" alt="MY ALT TEXT" style="width:65%; height:auto;" />
+      </div>
+      <h2 class="subtitle has-text-left">
         Synthetic images generated from human-crafted prompts (simulated using InstructBLIP) do not reflect the victim data (EuroSAT). In contrast, our Stealix method optimizes prompts using the victim model's predictions, producing images that resemble the victim data and are correctly classified as the target class by the victim model.
       </h2>
     </div>
   </div>
 </section>
+
 
 <!-- Paper abstract -->
 <section class="section hero is-light">
@@ -153,11 +155,12 @@
 
 <section class="hero is-small">
   <div class="hero-body">
-    <div class="container" style="text-align: center;">
-      <h2 class="title is-4 has-text-centered">How does it work?</h2>
-      <!-- Your image here -->
-      <img src="static/images/teaser3.png" alt="MY ALT TEXT" style="width:65%; height:auto;"/>
-      <h2 class="subtitle has-text-centered">
+    <div class="container">
+      <h2 class="title is-6">How does it work?</h2>
+      <div style="text-align: center;">
+        <img src="static/images/teaser3.png" alt="MY ALT TEXT" style="width:65%; height:auto;" />
+      </div>
+      <h2 class="subtitle has-text-left">
         Overview of Stealix. Stealix begins with a real image as a seed and synthesizes images to aid model stealing by iteratively refining prompts based on the victim's responses. The synthesized images are then used to train a proxy model.
       </h2>
     </div>
@@ -169,7 +172,7 @@
 <section class="hero is-small">
   <div class="hero-body">
     <div class="container" style="text-align: center;">
-      <h2 class="title is-4 has-text-centered">How the prompts look like?</h2>
+      <h2 class="title is-6 has-text-centered">How the prompts look like?</h2>
       <!-- Your image here -->
       <img src="static/images/high_pc_prompt.png" alt="MY ALT TEXT" style="width:65%; height:auto;"/>
       <h2 class="subtitle has-text-centered">
